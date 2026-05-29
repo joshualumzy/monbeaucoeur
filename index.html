@@ -1,0 +1,233 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@200;300;400&display=swap" rel="stylesheet">
+
+<!-- NAV -->
+<nav id="main-nav">
+  <a href="#top" class="nav-logo">Mon Beau Coeur</a>
+  <ul class="nav-links">
+    <li><a href="#droom" id="nl-droom">De Droom</a></li>
+    <li><a href="#kijk" id="nl-kijk">De Kijk</a></li>
+    <li><a href="#zoektocht" id="nl-zoektocht">De Zoektocht</a></li>
+    <li><a href="#coaching" id="nl-coaching">Coaching</a></li>
+    <li><a href="#contact" id="nl-contact">Contact</a></li>
+  </ul>
+  <div class="nav-right">
+    <div class="lang-switcher">
+      <button onclick="setLang('nl',this)" class="active">NL</button>
+      <button onclick="setLang('en',this)">EN</button>
+      <button onclick="setLang('de',this)">DE</button>
+      <button onclick="setLang('fr',this)">FR</button>
+    </div>
+    <a href="#contact" class="nav-cta" id="nav-cta-btn">Neem Contact Op</a>
+    <button class="nav-hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobile-menu">
+  <a href="#droom" id="mob-droom">De Droom</a>
+  <a href="#kijk" id="mob-kijk">De Kijk</a>
+  <a href="#zoektocht" id="mob-zoektocht">De Zoektocht</a>
+  <a href="#coaching" id="mob-coaching">Coaching</a>
+  <a href="#contact" id="mob-contact">Contact</a>
+  <div class="lang-switcher" style="margin-top:1.5rem;">
+    <button onclick="setLang('nl',this)" class="active">NL</button>
+    <button onclick="setLang('en',this)">EN</button>
+    <button onclick="setLang('de',this)">DE</button>
+    <button onclick="setLang('fr',this)">FR</button>
+  </div>
+  <a href="#contact" class="nav-cta" id="mob-cta" style="margin-top:1rem;">Neem Contact Op</a>
+</div>
+
+<!-- HERO -->
+<div id="top" style="padding-top: var(--nav-h);">
+  <section class="hero">
+    <div class="hero-bg" id="hero-bg"></div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-eyebrow" id="hero-eyebrow">Entre Bordeaux &amp; Toulouse · France</p>
+      <h1 class="hero-title" id="hero-title">Leven in balans<br>met de <em>natuur</em></h1>
+      <p class="hero-sub" id="hero-sub">Wij stelden ons een wereld voor waarin we samen met en van de natuur meer kunnen leren — een plek waar harten zichzelf mogen zijn.</p>
+      <div class="hero-actions">
+        <a href="#droom" class="btn-on-dark" id="hero-btn-main">Ontdek onze droom</a>
+        <a href="#coaching" class="btn-ghost-light" id="hero-btn-ghost">Coaching</a>
+      </div>
+    </div>
+    <div class="hero-scroll"><div class="hero-scroll-line"></div></div>
+  </section>
+</div>
+
+<!-- VIDEO — click to play -->
+<section class="video-section">
+  <div class="video-inner reveal">
+    <p class="section-label" id="video-lbl">Bekijk onze wereld</p>
+    <h2 id="video-hd">Mon Beau Coeur <em>in beeld</em></h2>
+    <div class="video-wrapper" id="video-wrapper">
+      <img class="video-poster"
+        src="https://images.weserv.nl/?url=static.wixstatic.com/media/0eab1e_c5ddc1993523458aa0309e07acc6e1de~mv2.jpg&w=1200&q=85"
+        alt="Play video">
+      <div class="video-play-btn">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="white"><polygon points="5,3 19,12 5,21"/></svg>
+      </div>
+      <iframe id="yt-iframe" src="" title="Mon Beau Coeur" allow="autoplay; accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+</section>
+
+<!-- DE DROOM -->
+<section class="droom" id="droom">
+  <div class="droom-grid">
+    <div class="droom-text reveal">
+      <p class="section-label" id="droom-lbl">De Droom</p>
+      <h2 class="section-title" id="droom-hd">Een plek waar we<br><em>verbinding vinden</em></h2>
+      <div class="divider"></div>
+      <div id="droom-body">
+        <p>Wij stelden ons een wereld voor waarin we samen met en van de natuur meer kunnen leren. Om de wijsheden die erin verborgen liggen in ons dagelijks bestaan te gebruiken, zodat we nog meer verbonden zijn met de natuur en onszelf. Waar harten zichzelf mogen zijn.</p>
+        <p>Dat zochten wij al heel lang. We wilden minder tijd doorbrengen in een steeds anoniemere wereld. Wij zochten een plek waar wij onze werk in het coachen van mensen bij het ontrafelen van hun uitdagingen op hun levenspad optimaal konden uitoefenen. Naast ook een plek van waar we bestaande en nieuwe start-ups kunnen begeleiden.</p>
+        <p>Deze droom borrelde al een paar jaar bij ons, Frederique en Ronald Horn. Met het zoeken naar de perfecte plek om onze droom werkelijkheid te maken kochten we eind 2021 een huis met 60 Ha bos en landbouwgrond tussen Bordeaux en Toulouse.</p>
+        <p>Met alle gemak en voorzieningen in de buurt maar wel met de rust en de inspiratie van de natuur. Op deze nieuwe locatie voelen we de ruimte en vrijheid van waaruit we onze activiteiten voortzetten en uitbreiden. We bieden op maat gemaakte trajecten aan in en met de natuur waarbij we je begeleiden bij je vraag en je deelneemt aan de projecten.</p>
+      </div>
+    </div>
+    <div class="droom-mosaic reveal delay-1">
+      <img class="img-wide" src="https://images.weserv.nl/?url=static.wixstatic.com/media/0eab1e_c5ddc1993523458aa0309e07acc6e1de~mv2.jpg&w=1200&q=85" alt="Mon Beau Coeur estate">
+      <img class="img-tall" src="https://images.weserv.nl/?url=static.wixstatic.com/media/f56ccd_71c08e661009405cabade3545357aaad~mv2.jpg&w=600&q=85" alt="Aan het werk">
+      <img class="img-square" src="https://images.weserv.nl/?url=static.wixstatic.com/media/f56ccd_475b674245f2462c9a89ab3c79f9da96~mv2.jpg&w=600&q=85" alt="Kaart">
+    </div>
+  </div>
+</section>
+
+<!-- INTERLUDE -->
+<div class="interlude">
+  <div class="interlude-bg" style="background-image:url('https://images.weserv.nl/?url=static.wixstatic.com/media/f56ccd_aee5c514374446be9726e1944f6f318a~mv2.jpg&w=1800&q=85');"></div>
+  <div class="interlude-overlay"></div>
+  <div class="interlude-text reveal">
+    <blockquote id="interlude-quote">De grootste zekerheid ben je zelf. Ik vind het geweldig om mensen te helpen tot dit inzicht te komen om vandaar met hen de ware passie in een eigen onderneming te verwezenlijken.</blockquote>
+    <cite>— Ronald Horn</cite>
+  </div>
+</div>
+
+<!-- QUOTES -->
+<section class="quotes">
+  <div class="quotes-inner">
+    <div class="quote-card reveal">
+      <p class="quote-text" id="quote-ronald">Ik ben opgegroeid met de boodschap haal je diploma's, vind een goede werkgever en doe je best. Dan had je zekerheid. Toen ik voor mijzelf begon ontdekte ik dat dit nooit zekerheid was geweest. De grootste zekerheid ben je zelf. Ik vind het geweldig om mensen te helpen tot dit inzicht te komen om vandaar met hun de ware passie in een eigen onderneming te verwezenlijken. Dit kunnen wij perfect vanuit Frankrijk doen.</p>
+      <p class="quote-author">— Ronald Horn</p>
+    </div>
+    <div class="quote-card reveal delay-1">
+      <p class="quote-text" id="quote-frederique">Door in resonantie met de natuur levensvraagstukken te ontrafelen heb ik geleerd om eerst mijzelf en nu ook andere mensen verder te helpen op hun levenspad, in Frankrijk hebben wij nu de perfecte plek hiervoor.</p>
+      <p class="quote-author">— Frederique Horn</p>
+    </div>
+  </div>
+</section>
+
+<!-- DE KIJK -->
+<section class="kijk" id="kijk">
+  <div class="kijk-inner">
+    <div class="reveal">
+      <p class="section-label" id="kijk-lbl">De Kijk</p>
+      <h2 class="section-title" id="kijk-hd">Ongedwongen<br><em>symbiose</em></h2>
+      <div class="divider"></div>
+      <div id="kijk-body">
+        <p class="kijk-body">Hoe wij kijken naar samenleven met de natuur? In de natuur leven dieren in vrijheid hun eigen pad de natuur kent een ongedwongen symbiose van samenwerking. De ene plant groeit met de ander. De afval van het ene dier is voeding voor het andere en zo ontstaat er telkens weer een nieuw ecosysteem.</p>
+      </div>
+    </div>
+    <div class="kijk-mosaic reveal delay-1">
+      <img class="km-wide" src="https://images.weserv.nl/?url=static.wixstatic.com/media/f56ccd_fc6bf7c84f104d74bff61b2b6ec74d24~mv2.jpg&w=1000&q=85" alt="Land design">
+      <img class="km-sq" src="https://images.weserv.nl/?url=static.wixstatic.com/media/f56ccd_42e56a67e3924160a789bb129c79cedc~mv2.jpg&w=600&q=85" alt="Evening">
+      <img class="km-sq" src="https://images.weserv.nl/?url=static.wixstatic.com/media/f56ccd_fab6f4e727f2497dbd0de31310ef3d98~mv2.jpeg&w=600&q=85" alt="Lanen">
+    </div>
+  </div>
+</section>
+
+<!-- DE ZOEKTOCHT -->
+<section class="zoektocht" id="zoektocht">
+  <div class="zoektocht-inner">
+    <div class="zoektocht-header reveal">
+      <p class="section-label" id="zoek-lbl">De Zoektocht</p>
+      <h2 class="section-title" id="zoek-hd">Bouwen aan<br><em>zelfvoorzienendheid</em></h2>
+      <p id="zoek-sub">Waar we nu naar op zoek zijn? Nu we bouwen aan een plek voor de toekomst, gaat ons werk gewoon door. Het is belangrijk voor ons om zelfvoorzienend te kunnen zijn, daarom zijn wij gestart met de volgende projecten.</p>
+    </div>
+    <div class="projects-grid">
+      <div class="project-card reveal" id="proj-1"><h4>Voedselbos</h4><p>Een bos dat voedsel produceert en tegelijk een ecosysteem in stand houdt.</p></div>
+      <div class="project-card reveal delay-1" id="proj-2"><h4>Permacultuur</h4><p>Duurzame landbouw in harmonie met de natuur.</p></div>
+      <div class="project-card reveal delay-2" id="proj-3"><h4>Eigen energie &amp; water</h4><p>Eigen energie en watervoorzieningen als fundament voor zelfvoorzienendheid.</p></div>
+    </div>
+    <div class="vacancies-split reveal">
+      <div class="vacancies-img">
+        <img src="https://images.weserv.nl/?url=static.wixstatic.com/media/f56ccd_03622c56fde541f7a76b88c1970741b1~mv2.jpg&w=1200&q=85" alt="Eigen groenten">
+      </div>
+      <div class="vacancies">
+        <h3 id="vac-hd">Kom meewerken</h3>
+        <p id="vac-sub">Voor het aanleggen van permacultuur, waterpartijen en bossen bieden we regelmatig nieuwe projecten aan waar mensen kunnen meewerken op basis van werken tegen wonen. Dit geldt zeker ook voor de verzorging van onze dieren (paarden, kippen) waarbij het essentieel is dat wij erin geloven dat onze dieren ruimte en vrijheid nodig hebben.</p>
+        <div class="vacancy-tags">
+          <span class="vacancy-tag" id="tag-1">Dierenverzorger (paarden)</span>
+          <span class="vacancy-tag" id="tag-2">Schilder</span>
+          <span class="vacancy-tag" id="tag-3">Timmerman</span>
+          <span class="vacancy-tag" id="tag-4">Loodgieter</span>
+          <span class="vacancy-tag" id="tag-5">Metselaar</span>
+        </div>
+        <a href="#contact" class="btn-dark" id="vac-btn">Stuur ons een bericht</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COACHING -->
+<section class="coaching" id="coaching">
+  <div class="coaching-inner">
+    <div class="reveal">
+      <p class="section-label" id="coaching-lbl">Coaching</p>
+      <h2 id="coaching-hd">Jouw levenspad<br><em>ontrafelen</em></h2>
+      <p id="coaching-sub">We hebben de ervaring dat mensen die bij ons komen met een coachingsvraag er ook de behoefte is om er even helemaal uit te zijn. Om hierop in te spelen bieden we op maat gemaakte trajecten aan in en met de natuur waarbij we je begeleiden bij je vraag en je deelneemt aan de projecten.</p>
+    </div>
+    <div class="reveal delay-1">
+      <a href="#contact" class="btn-dark" id="coaching-btn">Plan een gesprek</a>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="contact-inner">
+    <div class="reveal">
+      <p class="section-label" id="contact-lbl">Contact</p>
+      <h2 id="contact-hd">Neem contact<br><em>op</em></h2>
+      <p class="contact-sub" id="contact-sub">Interesse in coaching, meewerken aan een project, of gewoon een vraag? Stuur ons een bericht.</p>
+      <div class="contact-details">
+        <div class="contact-detail-block">
+          <strong id="lbl-address">Adres</strong>
+          <p>1325 Rte de Rolans<br>47370 Saint-Georges, France</p>
+        </div>
+        <div class="contact-detail-block">
+          <strong id="lbl-email">Email</strong>
+          <a href="mailto:frederiquehorn@hotmail.com">frederiquehorn@hotmail.com</a>
+        </div>
+        <div class="contact-detail-block">
+          <strong>Instagram</strong>
+          <a href="https://www.instagram.com/monbeaucoeureu/" target="_blank">@monbeaucoeureu</a>
+        </div>
+      </div>
+    </div>
+    <div class="reveal delay-1">
+      <form class="contact-form" onsubmit="handleSubmit(event)">
+        <input type="text" id="f-name" placeholder="Uw naam">
+        <input type="email" id="f-email" placeholder="E-mailadres">
+        <textarea rows="5" id="f-msg" placeholder="Uw bericht"></textarea>
+        <button type="submit" class="btn-light" id="submit-btn">Verstuur bericht</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <span class="footer-logo">Mon Beau Coeur</span>
+  <span class="footer-copy">1325 Rte de Rolans · 47370 Saint-Georges · France</span>
+  <div class="footer-insta">
+    <a href="https://www.instagram.com/monbeaucoeureu/" target="_blank">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.5" fill="currentColor"/></svg>
+      @monbeaucoeureu
+    </a>
+  </div>
+</footer>
